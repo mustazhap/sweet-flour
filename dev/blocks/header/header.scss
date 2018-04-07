@@ -1,0 +1,83 @@
+header{
+  height: 110px;
+  padding: 0 15px;
+  background-color: $mainColor;
+  display: grid;
+  grid-template-columns: 1fr 1230px 1fr;
+  grid-template-areas: "... container ...";
+}
+
+.header-container{
+  grid-area: container;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 130px;
+}
+
+.header__info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  a{
+    color: white;
+  }
+
+}
+
+.header__phone{
+  line-height: 1.5;
+
+  text-decoration: none;
+}
+
+.header__email{
+  line-height: 1;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+
+}
+
+.header__button{
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  padding: 7px 13px;
+}
+
+.nav{
+  background: $bgColor;
+  display: grid;
+  grid-template-columns: 1fr 1230px 1fr;
+  grid-template-areas: "... nav ...";
+}
+
+.nav-container{
+  grid-area: nav;
+  display: flex;
+  padding-left: 130px;
+}
+
+.nav-item{
+  background: white;
+  padding: 20px;
+  color: #4b4b4b;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #c0c0c0;
+  border-top: none;
+  border-right: none;
+  &:last-child{
+    border-right: 1px solid #c0c0c0;
+  }
+  &:hover{
+    background: $mainColor;
+    color: white;
+  }
+}
+

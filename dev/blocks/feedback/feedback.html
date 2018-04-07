@@ -1,0 +1,39 @@
+<section class="feedback" id="feedback">
+    <script>
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                    center: [55.76, 37.64],
+                    zoom: 11
+                }, {
+                    searchControlProvider: 'yandex#search'
+                });
+            var PlaceM = new ymaps.Placemark([55.684758, 37.738521], {
+                balloonContent: ' <strong>Инфа адреса</strong>'
+            }, {
+                preset: 'islands#icon',
+                iconColor: '#0095b6'
+            });
+
+            myMap.geoObjects
+                .add(PlaceM) ;
+            PlaceM.balloon.open();
+            myMap.behaviors.disable('scrollZoom')
+
+
+
+        };
+
+    </script>
+    <div class="feedback-form">
+        <span class="feedback__title">Обратная связь</span>
+        <input class="input-form" type="text" placeholder="Имя">
+        <input class="input-form" type="text" placeholder="Email">
+        <textarea class="input-form input-textarea" type="textarea" placeholder="Сообщение" ></textarea>
+        <div class="button-zone">        <button class="feedback__button">Отрпавить</button>
+        </div>
+
+    </div>
+    <div id="map"></div>
+</section>

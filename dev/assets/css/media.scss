@@ -1,0 +1,131 @@
+
+@media screen and (max-width: 1200px){
+  header{
+    grid-template-columns: 1fr;
+    grid-template-areas: "container";
+  }
+
+  .about{
+    grid-template-columns: 1fr;
+    grid-template-areas: "about";
+  }
+
+  .product{
+    grid-template-columns: 1fr;
+    grid-template-areas: "prod";
+    height: auto;
+  }
+
+  .quality{
+    grid-template-columns: 1fr;
+    grid-template-areas: "quo";
+  }
+  .footer{
+    grid-template-columns: 1fr;
+    grid-template-areas: "foot";
+  }
+  .nav{
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav";
+  }
+  .feedback-form{
+    width: 380px;
+    left: 100px;
+  }
+  .slider__img{
+    width: 600px;
+  }
+
+  .quality-container{
+    box-sizing: border-box;
+  }
+
+  .quality__img{
+    margin-left: -100px;
+    width: 600px;
+  }
+
+}
+
+
+@media screen and (max-width: 950px){
+  .slider__img{
+    width: 500px;
+    height: 500px;
+  }
+  .about-container{
+    padding: 30px;
+  }
+  .slider__text{
+    font-size: 40px;
+
+  }
+  .quality__block{
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .quality__img{
+
+    margin: 0;
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  .quality-container{
+    padding-right: 30px;
+  }
+  .quality__text{
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 40px;
+
+  }
+
+}
+@media screen and (max-width: 875px){
+  .slider__text{
+    font-size: 30px;
+  }
+  .header-container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .footer{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .slider__img {
+    width: 454px;
+    height: 409px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .slider__text{
+    font-size: 40px;
+  }
+  .quality__block{
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+
+  }
+  .quality__img{
+
+    margin: 0;
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  .quality-container{
+    padding-right: 30px;
+  }
+  .quality__text{
+    width: auto;
+    margin-left: 0;
+    margin-bottom: 40px;
+
+  }
+}

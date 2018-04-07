@@ -1,0 +1,191 @@
+.product{
+  height: 950px;
+  background: $bgColor;
+  display: grid;
+  grid-template-columns: 1fr 1230px 1fr;
+  grid-template-areas: "... prod ...";
+
+}
+
+.product-container{
+  grid-area: prod;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-title{
+  font-family: $FontBold;
+  font-size: 48px;
+  color: $mainColor;
+}
+
+.product-wrapper{
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.product-nav__item{
+  color: #a9a9a9;
+  font-size: 30px;
+  border-bottom: 1px solid #a9a9a9;
+  cursor: pointer;
+  &:first-child{
+    margin-right: 40px;
+  }
+  &:hover{
+    border-bottom: 1px solid #ccc;
+    color: #ccc;
+  }
+}
+
+.nav-active{
+  color: $mainColor;
+  font-family: $FontBold;
+  border-bottom: none;
+  cursor: default;
+  &:hover{
+    border-bottom: none;
+    color: $mainColor;
+  }
+}
+
+.product-block{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease;
+
+}
+
+.product-block__title{
+  font-size: 24px;
+  font-family: $FontBold;
+}
+.product-block__row{
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.product__item{
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: $FontBold;
+  background: white;
+  width: 170px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 14px -4px rgba(0,0,0,0.75);
+
+  &:hover{
+    background: $mainColor;
+    color: white;
+  }
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+.modal__title{
+  font-size: 35px;
+  color: $mainColor;
+  font-family: $FontBold;
+}
+
+.modal__text{
+  font-size: 18px;
+}
+
+.modal__sostav{
+  font-size: 18px;
+}
+
+.modal__subtitle{
+  font-size: 24px;
+  font-family: $FontBold;
+  color: $mainColor;
+}
+.modal__row{
+  margin-top: 20px;
+  display: flex;
+}
+
+.modal__col{
+  margin-right: 15px;
+}
+
+.modal__item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+
+}
+
+.modal__itemT{
+  font-size: 22px;
+  margin-left: 10px;
+  line-height: 0.8;
+}
+.modal__koef{
+  display: flex;
+  font-family: $FontBold;
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+.modal__number{
+  font-size: 50px;
+  color: $mainColor;
+  margin-left: 10px;
+}
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  padding: 60px 100px 60px 70px;
+  width: 990px;
+  border: 1px solid #c0c0c0;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 2px 2px 14px -4px rgba(0,0,0,0.75);
+  position: relative;
+
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.slider{
+  background: $bgColor;
+  height: 646px;
+  display: flex;
+
+}
+
+.slider__img{
+  margin-bottom: -25px;
+}
+
+.slider__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 65px;
+  color: $mainColor;
+  margin-top: 160px;
+}
+
+.text-bold{
+  font-family: $FontBold;
+}

@@ -1,0 +1,71 @@
+.quality{
+  background: $mainColor;
+  display: grid;
+  grid-template-columns: 1fr 1230px 1fr;
+  grid-template-areas: "... quo ...";
+}
+
+.quality-container{
+  grid-area: quo;
+  padding: 80px 100px 75px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quality__title{
+  color: white;
+  font-family: $font-bold;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+
+.quality__block{
+  display: flex;
+}
+
+.quality__text{
+  width: 500px;
+  font-size: 24px;
+  color: white;
+  margin-left: -70px;
+  display: flex;
+  flex-direction: column;
+}
+.quality-right{
+  margin-bottom: 30px;
+  text-align: right;
+  font-family: $FontItalic;
+}
+
+.quality-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.quality__subtitle{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quality__item{
+  padding: 20px 45px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  width: 400px;
+  box-sizing: border-box;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+
+
+}

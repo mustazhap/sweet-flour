@@ -1,0 +1,19 @@
+$FontReg: 'Helvetica-Regular', sans-serif;
+$FontBold: 'Helvetica-Bold', sans-serif;
+$FontItalic: 'Helvetica-Italic', sans-serif;
+
+@font-face{
+  font-family: 'Helvetica-Regular';
+  src: url('../../assets/fonts/HelveticaRegular/HelveticaRegular.ttf') format('truetype');
+
+}
+
+@font-face{
+  font-family: 'Helvetica-Bold';
+  src: url('../../assets/fonts/HelveticaBold/HelveticaBold.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Helvetica-Italic';
+  src: url('../../assets/fonts/HelveticaItalic/HelveticaItalic.ttf') format('truetype');
+}
