@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="assets/css/main.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="assets/js/main.js" type="text/javascript"></script>
+
+	<title>Sweet</title>
+
+</head>
+<body>
+	<header>
+<div class="header-container">
+    <a href="#!"><img class="header__logo" src="../../assets/img/header/logo.png" alt="Sweet Flour"></a>
+    <div class="header__info">
+        <a class="header__phone" href="tel:88007555555">8 800 755 55 55</a>
+        <a class="header__email" href="email:info@synesthesia-pro.ru">info@synesthesia-pro.ru</a>
+        <button class="header__button">Заказать звонок</button>
+    </div>
+</div>
+</header>
+<section class="nav">
+    <div class="nav-container"  id="menu">
+        <a href="#about" class="nav-item">О компании</a>
+        <a href="#product" class="nav-item">Продукция</a>
+        <a href="#quality" class="nav-item">Политика качества</a>
+        <a href="#feedback" class="nav-item">Контакты</a>
+    </div>
+</section>
+
+	<section class="slider">
+    <img class="slider__img" src="../../assets/img/slider/flower.png" alt="">
+    <div class="slider__text">
+        <span class="text-bold">Sweet Flour</span>
+        <span>Самые прогресивные</span>
+        <span>сахаразаменители</span>
+    </div>
+
+</section>
+	<section class="about" id="about">
+    <div class="about-container">
+    <img src="../../assets/img/about/logo.png" alt="Sweet Flour" class="about__logo">
+        <p class="about__text">
+            Компания "Sweet Flour" - это российское предприятие, специализирующееся в производстве смесей интенсивных подсластителей, широко применяемых в современной пищевой промышленности. <br>
+            Наша компания существует на российском рынке с 1996 года, и за это время она завоевала заслуженный авторитет у своих клиентов благодаря стабильно высокому качеству продукции и высокому профессионализму своих сотрудников. <br>
+            Мы - компания, работающая в области подсластителей с первого дня своего основания и накопившая в этой области огромный опыт. Это позволило нам разработать и предложить нашим клиентам широкий ряд хорошо сбалансированных смесей подсластителей торговой марки "I-Sweet", с коэффициентами сладости от 25 до 450, выпускаемых по нашим собственным рецептурам и служащих для полной или частичной замены сахарозы в пищевых продуктах.
+        </p>
+    </div>
+</section>
+	<section class="product" id="product">
+<div class="product-container">
+    <span class="product-title">Наши продукты</span>
+
+    <div class="product-wrapper">
+        <div class="product-nav">
+            <span class="product-nav__item butt"  onclick="currentClock(1)">Интенсивные</span>
+            <span class="product-nav__item butt" onclick="currentClock(2)">Натуральные</span>
+        </div>
+        <div class="product-block bupp">
+            <span class="product-block__title">Коофициент сладости до 200:1</span>
+            <div class="product-block__row">
+                <div class="product__item myBtn" onclick="cuurentBlock(0)">I-Sweet 25f</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(1)">I-Sweet 25FL</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(2)">I-Sweet 50T-F</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(3)">I-Sweet 50T</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(4)">I-Sweet<br>100Asp</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(5)">I-Sweet<br>100MT</div>
+            </div>
+
+            <span class="product-block__title">Коофициент сладости 200:1</span>
+            <div class="product-block__row">
+                <div class="product__item myBtn" onclick="cuurentBlock(6)">I-Sweet <br> 200TEconom</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(7)">I-Sweet 200T</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(8)">I-Sweet <br> 200TL</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(9)">I-Sweet <br> 200TF-3K</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(10)">I-Sweet <br> 200UNI-T</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(11)">I-Sweet <br> 200Asp</div>
+
+                <div class="product__item myBtn" onclick="cuurentBlock(12)">I-Sweet 200 P</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(13)">I-Sweet <br> 200 AA</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(14)">I-Sweet <br> 200 AA-2</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(15)">I-Sweet 200 N</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(16)">I-Sweet <br> 200 NS</div>
+            </div>
+
+            <span class="product-block__title">Коофициент сладости выше 200:1</span>
+            <div class="product-block__row">
+                <div class="product__item myBtn" onclick="cuurentBlock(17)">I-Sweet<br> 350 AAS</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(18)">I-Sweet 350 N</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(19)">I-Sweet <br> 400T-AC</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(20)">I-Sweet 600</div>
+            </div>
+        </div>
+        <div class="product-block bupp">
+            <span class="product-block__title">На основе Cтевии</span>
+            <div class="product-block__row">
+                <div class="product__item myBtn" onclick="cuurentBlock(21)">I-Sweet STV<br> 250</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(22)">I-Sweet STV<br> 300</div>
+
+            </div>
+
+            <span class="product-block__title">На основе Cтевии</span>
+            <div class="product-block__row">
+                <div class="product__item myBtn" onclick="cuurentBlock(23)">I-Sweet LHG<br> 250</div>
+                <div class="product__item myBtn" onclick="cuurentBlock(24)">I-Sweet LHG<br> 250</div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 25 F</span>
+        <p class="modal__text">Максимальный сахарный вкусовой профиль. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках. Термостабильность.<br>
+            Не надо выносить предупреждающую надпись в отношении аспартама.<br>
+            Участие реакциях Майяра.<br>
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Фруктоза, цикламат, ацесульфам К, сахарин.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">25:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+            <div class="modal__item">
+                <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                <span class="modal__itemT">Напитки</span>
+            </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+           <div class="modal__col">
+            <div class="modal__item">
+                <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                <span class="modal__itemT">Выпечка</span>
+            </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 25-FL</span>
+        <p class="modal__text">Максимальный сахарный вкусовой профиль. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках. Термостабильность.<br>
+            Не надо выносить предупреждающую надпись в отношении аспартама.<br>
+            Участие реакциях Майяра.<br>
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Фруктоза, цикламат, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">25:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 50T-F</span>
+        <p class="modal__text">Максимальный сахарный вкусовой профиль. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках. Термостабильность.<br>
+            Не надо выносить предупреждающую надпись в отношении аспартама.<br>
+            Участие реакциях Майяра.<br>
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Фруктоза, цикламат, сахарин, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">50:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 50T</span>
+        <p class="modal__text">Максимальный сахарный вкусовой профиль. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках. Термостабильность.<br>
+            Не надо выносить предупреждающую надпись в отношении аспартама.<br>
+            Участие реакциях Майяра.<br>
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Фруктоза, цикламат, сахарин.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">50:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 100Asp</span>
+        <p class="modal__text">Подсластитель нового поколения – без сахарина и цикламата. <strong>Отличный вкус, близкий к сахару по профилю сладости.</strong> Участие в реакциях Майяра. На этикетку выносятся только два подсластителя с Е-кодами. Возможность использования для соусов, майонезов и приправ, не подвергающихся термической обработке выше 110С.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Сахар, аспартам, ацесульфам К.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">100:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200TEconom</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. Не надо выносить предупреждающую надпись в отношении аспартама.
+            Применим для хлебобулочных изделий.  Вкусовой профиль максимально приближен к сахару.                                                                                                                                   Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, ацесульфам К, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200T</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. Не надо выносить предупреждающую надпись в отношении аспартама.
+            Применим для хлебобулочных изделий.                                                                                                                              Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, ацесульфам К, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/diet.png" alt="diet" class="modal__img">
+                    <span class="modal__itemT">Диетическое<br>питание</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200TL</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. Не надо выносить предупреждающую надпись в отношении аспартама.
+            Применим для хлебобулочных изделий.                                                                                                                              Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, ацесульфам К, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/diet.png" alt="diet" class="modal__img">
+                    <span class="modal__itemT">Диетическое<br>питание</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200TF-3К</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. Не надо выносить предупреждающую надпись в отношении аспартама.
+            Применим для хлебобулочных изделий.                                                                                                                              Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, ацесульфам К, фруктоза, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200TF-3К</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. Не надо выносить предупреждающую надпись в отношении аспартама.
+            Применим для хлебобулочных изделий.                                                                                                                              Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, ацесульфам К, фруктоза, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200UNI-T</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПДК в напитках. Стабильность при производстве и хранении в конечном продукте, в т.ч. в напитках.
+            Термостабильность. На этикетку выносятся только два подсластителя с Е-кодами. Не надо выносить предупреждающую надпись в отношении аспартама. Применим для хлебобулочных изделий.                                                                                                                             Экономичен при сбалансированном составе.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/farma.png" alt="farma" class="modal__img">
+                    <span class="modal__itemT">Фармацевтика</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/diet.png" alt="diet" class="modal__img">
+                    <span class="modal__itemT">Диетическое<br>питание</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200Аsp</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках<br>
+            Отсутствие риска превышения ПДК в напитках<br>
+            Ограниченная термостабильност не выше 110С.</p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, аспартам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/farma.png" alt="farma" class="modal__img">
+                    <span class="modal__itemT">Фармацевтика</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/diet.png" alt="diet" class="modal__img">
+                    <span class="modal__itemT">Диетическое<br>питание</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200 P</span>
+        <p class="modal__text">Участие в реакциях Майяра, которые желательны для выпеченных изделий. На этикетку выносятся только два подсластителя с Е-кодами. Возможность использования для соусов, майонезов и приправ, подвергающихся термической обработке выше 110С.</p>
+        <p class="modal__sostav"><strong>Состав:</strong> Сахар, аспартам, сахарин.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200 AA</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках.<br>
+            Отсутствие риска превышения ПКД в напитках.</p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, сахарин, аспартам, ацесульфам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200 AA-2</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках.<br>
+            Отсутствие риска превышения ПКД в напитках.</p>
+        <p class="modal__sostav"><strong>Состав:</strong> Цикламат, аспартам, сахарин, ацесульфам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200 N</span>
+        <p class="modal__text">Подсластитель нового поколения – без сахарина и цикламата. Усиление и улучшение ароматики благодаря применению подсластителя новейшего поколения - неотама, что дает возможность экономить на ароматизаторах. Участие в реакциях Майяра.Возможность использования для соусов, майонезов и приправ.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Аспартам, ацесульфам, сахар, неотам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/diet.png" alt="diet" class="modal__img">
+                    <span class="modal__itemT">Диетическое<br>питание</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 200 NS</span>
+        <p class="modal__text">Подсластитель нового поколения – без сахарина и цикламата. Усиление и улучшение ароматики благодаря применению подсластителя новейшего поколения - неотама, что дает возможность экономить на ароматизаторах. Участие в реакциях Майяра.Возможность использования для соусов, майонезов и приправ.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Сахар, ацесульфам, сукралоза, неотам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">200:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 350 AAS</span>
+        <p class="modal__text">Подсластитель нового поколения – без сахарина и цикламата. Усиление и улучшение ароматики благодаря применению подсластителя новейшего поколения - неотама, что дает возможность экономить на ароматизаторах. Участие в реакциях Майяра.Возможность использования для соусов, майонезов и приправ.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Аспартам, ацесульфам К, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">350:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 350 N</span>
+        <p class="modal__text">Возможность полной замены сахара в напитках. Отсутствие риска превышения ПКД в напитках. Подсластитель нового поколения – без сахарина и цикламата. Усиление и улучшение ароматики благодаря применению подсластителя новейшего поколения - неотама, что дает возможность экономить на ароматизаторах. Возможность использования для соусов, майонезов и приправ, не подвергающихся термической обработке.
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Аспартам, ацесульвам К, сахар, неотам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">350:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 400T-AС</span>
+        <p class="modal__text">Применим в шировом диапазоне продуктов питания (спортпит, кондитерка, выпечка, напитки и тд)
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Ацесульфам К, сукралоза.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">400:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet 600</span>
+        <p class="modal__text">Применим в шировом диапазоне продуктов питания (спортпит, кондитерка, выпечка, напитки и тд)
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong> Фруктоза, ацесульфам К, аспартам, сукралоза, неотам.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">600:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/sport.png" alt="sport" class="modal__img">
+                    <span class="modal__itemT">Спортивное<br>питание</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet STV 250</span>
+        <p class="modal__text">Натуральный сахарозаменитель  в его составе основным ингредиентом считается стевиозид, полученный экстрагированием из листьев стевии. Стевия — это травянистое растение, произрастающее на территориях Южной и Центральной Америки, называется также «медовая» или «сладкая» трава за свой приятный вкус.
+
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong>вода природная подготовленная, экстракт стевии E960, натуральный консервант сорбат калия E202.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">250:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet STV 300</span>
+        <p class="modal__text">Натуральный сахарозаменитель  в его составе основным ингредиентом считается стевиозид, полученный экстрагированием из листьев стевии. Стевия — это травянистое растение, произрастающее на территориях Южной и Центральной Америки, называется также «медовая» или «сладкая» трава за свой приятный вкус.
+
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong>вода природная подготовленная, экстракт стевии E960, натуральный консервант сорбат калия E202.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">300:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet LHG 250</span>
+        <p class="modal__text">Натуральный сахарозаменитель  в его составе основным ингредиентом считается стевиозид, полученный экстрагированием из листьев стевии. Стевия — это травянистое растение, произрастающее на территориях Южной и Центральной Америки, называется также «медовая» или «сладкая» трава за свой приятный вкус.
+
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong>вода природная подготовленная, экстракт стевии E960, натуральный консервант сорбат калия E202.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">250:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="myModal modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <img class="close" src="../../assets/img/product/close.png" alt="">
+        <span class="modal__title">I-Sweet LHG 300</span>
+        <p class="modal__text">Натуральный сахарозаменитель  в его составе основным ингредиентом считается стевиозид, полученный экстрагированием из листьев стевии. Стевия — это травянистое растение, произрастающее на территориях Южной и Центральной Америки, называется также «медовая» или «сладкая» трава за свой приятный вкус.
+
+        </p>
+        <p class="modal__sostav"><strong>Состав:</strong>вода природная подготовленная, экстракт стевии E960, натуральный консервант сорбат калия E202.</p>
+        <div class="modal__koef"><span>Коофициент<br>сладости</span><span class="modal__number">300:1</span>
+        </div>
+        <span class="modal__subtitle">Область применения</span>
+        <div class="modal__row">
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/drink.png" alt="drink" class="modal__img">
+                    <span class="modal__itemT">Напитки</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/candy.png" alt="candy" class="modal__img">
+                    <span class="modal__itemT">Кондитерская<br>продукция</span>
+                </div>
+
+
+            </div>
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/milk.png" alt="milk" class="modal__img">
+                    <span class="modal__itemT">Молочная<br>продукция</span>
+                </div>
+                <div class="modal__item">
+                    <img src="../../assets/img/product/oil.png" alt="oil" class="modal__img">
+                    <span class="modal__itemT">Масложировая<br>продукция</span>
+                </div>
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/tv.png" alt="tv" class="modal__img">
+                    <span class="modal__itemT">Полуфабрикаты</span>
+                </div>
+
+            </div>
+
+            <div class="modal__col">
+                <div class="modal__item">
+                    <img src="../../assets/img/product/food.png" alt="food" class="modal__img">
+                    <span class="modal__itemT">Выпечка</span>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+	<section class="quality" id="quality">
+    <div class="quality-container">
+        <span class="quality__title">Политика качества</span>
+        <div class="quality__block">
+            <img src="../../assets/img/quality/manufacturing.png" alt="Manufacturing" class="quality__img">
+            <div class="quality__text">
+                <span class="quality-right">Безопасность пищевой продукции - это<br>основа успеха нашего бизнеса.</span>
+                <p>Для того чтобы завоевать доверие потребителей, нам необходимо производить безопасную продукцию. Мы понимаем различные потребности наших потребителей и твердо привержены, разрабатывать и выпускать безопасную продукцию смеси подсластителей наивысшего качества, чтобы гарантировать потребителям правильность сделанного ими выбора.</p>
+            </div>
+        </div>
+        <span class="quality__subtitle">Принципы Политики в области безопасности<br> пищевой продукции:</span>
+        <div class="quality-wrapper">
+            <div class="quality__item">Безопасность продукции для<br> потребителей, прежде всего</div>
+            <div class="quality__item">Безопасность продукции – <br>это общая ответственность</div>
+            <div class="quality__item">Ориентация на клиентов и <br>потребителей в сердце<br> нашего бизнеса</div>
+            <div class="quality__item">Построение и поддержание<br> системы, безопасность<br> нашей продукции</div>
+
+
+        </div>
+    </div>
+</section>
+	<section class="feedback" id="feedback">
+    <script>
+        ymaps.ready(init);
+
+        function init() {
+            var myMap = new ymaps.Map("map", {
+                    center: [55.76, 37.64],
+                    zoom: 11
+                }, {
+                    searchControlProvider: 'yandex#search'
+                });
+            var PlaceM = new ymaps.Placemark([55.684758, 37.738521], {
+                balloonContent: ' <strong>Инфа адреса</strong>'
+            }, {
+                preset: 'islands#icon',
+                iconColor: '#0095b6'
+            });
+
+            myMap.geoObjects
+                .add(PlaceM) ;
+            PlaceM.balloon.open();
+            myMap.behaviors.disable('scrollZoom')
+
+
+
+        };
+
+    </script>
+    <div class="feedback-form">
+        <span class="feedback__title">Обратная связь</span>
+        <input class="input-form" type="text" placeholder="Имя">
+        <input class="input-form" type="text" placeholder="Email">
+        <textarea class="input-form input-textarea" type="textarea" placeholder="Сообщение" ></textarea>
+        <div class="button-zone">        <button class="feedback__button">Отрпавить</button>
+        </div>
+
+    </div>
+    <div id="map"></div>
+</section>
+	<div class="footer">
+    <div class="footer-container">
+        <div class="footer-block">
+        <a href="#!"><img class="header__logo" src="../../assets/img/header/logo.png" alt="Sweet Flour"></a>
+        <div class="header__info">
+            <a class="header__phone" href="tel:88007555555">8 800 755 55 55</a>
+            <a class="header__email" href="email:info@synesthesia-pro.ru">info@synesthesia-pro.ru</a>
+        </div>
+        </div>
+        <span class="footer-co">© 2015-2018<br>Sweet Flour</span>
+
+    </div>
+</div>
+
+
+
+
+
+	<script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+</html>
